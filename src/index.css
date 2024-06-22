@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.pincode-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pincode-form input,
+.pincode-form button {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.pincode-details {
+  margin-top: 20px;
+}
+
+.post-office {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.error {
+  color: red;
+  margin-top: 10px;
+}
